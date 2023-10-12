@@ -28,6 +28,7 @@ interface Cycle {
   id: string
   task: string
   minutesAmount: number
+  startDate: Date
 }
 
 export function Home() {
@@ -50,6 +51,7 @@ export function Home() {
       id,
       task: data.task,
       minutesAmount: data.minutesAmount,
+      startDate: new Date(),
     }
 
     setCycles((state) => [...state, newCycle])
