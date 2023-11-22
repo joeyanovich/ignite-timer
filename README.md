@@ -1,5 +1,5 @@
 <h1 align="center">
-   <img src="./public/readme/ignite.png">
+   <img src="./public/readme/ignite.png"> IGNITE TIMER
 </h1>
 
 <div align="center">
